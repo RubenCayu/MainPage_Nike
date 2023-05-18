@@ -474,6 +474,5 @@ footer {
             footer div#iconos a:hover img {
                 width: 52%;
                 margin: 3%;
-                animation:shadow-drop-bottom 0.15s linear both;
             }
         
