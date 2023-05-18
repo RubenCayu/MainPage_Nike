@@ -1,3 +1,5 @@
+@keyframes shadow-drop-bottom{0%{box-shadow:0 0 0 0 transparent}100%{box-shadow:0 15px 25px -5px #495361d2}}
+
 body {
     margin: 0px;
     max-width: 1950px;
@@ -162,7 +164,7 @@ header div:nth-child(2).header2 {
                     vertical-align: top;
                 }
                     .button ~ span.material-symbols-outlined {
-                        /* Arregla imagen encima de botón ! (pal futuro ;P) */
+                        /* Arregla imagen encima de botÃƒÂ³n ! (pal futuro ;P) */
                         position: absolute;
                         z-index: 15;
                         margin-left: 20px;
@@ -238,6 +240,7 @@ main div.encabezado div {
                     padding: 5px 19.6px;
                     font-size: 21px;
                     color: #cfcfcfe0;
+                    animation:shadow-drop-bottom 0.15s linear both;
                 }
 
 
@@ -256,6 +259,7 @@ main section.tipo div#tipo {
             main section.tipo div#tipo div a:hover img {
                 width: 98%;
                 margin: 1.1% ;
+                animation:shadow-drop-bottom 0.15s linear both;
             }
         main section.tipo div p {
             font-size: 25px;
@@ -312,6 +316,7 @@ main section.zapatos {
                 main section.zapatos div div a:hover {
                     padding: 1px 8.5px;
                     margin: 13.5px;
+                    animation:shadow-drop-bottom 0.15s linear both;
                 }
 
 
@@ -335,7 +340,8 @@ main section.tendencias {
             }
             main section.tendencias div#tendencias article a:hover img {
                 width: 98%;
-                margin: 1% ;
+                margin: 1%;
+                animation:shadow-drop-bottom 0.15s linear both;
             }
                 main section.tendencias div#tendencias article a img {
                     width: 100%;
@@ -468,5 +474,6 @@ footer {
             footer div#iconos a:hover img {
                 width: 52%;
                 margin: 3%;
+                animation:shadow-drop-bottom 0.15s linear both;
             }
         
